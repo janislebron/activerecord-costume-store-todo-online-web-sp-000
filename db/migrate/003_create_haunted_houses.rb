@@ -6,7 +6,7 @@ class CostumeStore < ActiveRecord::Migration[5.1]
       t.string :location
       t.string :theme
       t.integer :price
-      t.string :family_friendly
+      t.boolean :family_friendly
       t.integer :opening_date
       t.integer :closing_date
       t.string :long_description
